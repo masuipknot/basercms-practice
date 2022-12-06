@@ -1,0 +1,837 @@
+[Error] 2022-11-24 16:49:30 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:49:30 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:49:30 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:49:34 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:49:34 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:49:34 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:49:55 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:49:55 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:49:55 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:49:56 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:51:47 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:51:48 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:51:48 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:51:48 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:51:48 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:51:48 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:51:50 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:51:50 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:51:50 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:51:51 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:51:51 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:51:51 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:53:32 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:53:32 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:53:32 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:53:33 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:53:34 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:53:34 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:53:34 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:53:35 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:53:35 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:53:35 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:53:36 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:53:36 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:53:36 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:53:36 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:53:36 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:53:36 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:55:07 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:55:07 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:55:07 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:55:08 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:55:08 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:55:08 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:55:09 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:55:09 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:55:09 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:55:09 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:55:09 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:55:09 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:55:09 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:55:09 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:55:09 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:58:12 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:58:12 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:58:12 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:58:13 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:58:13 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:58:13 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:58:14 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:58:14 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:58:14 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:58:14 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:58:14 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:58:14 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:58:25 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:58:25 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:58:25 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+[Error] 2022-11-24 16:58:33 ---------------------------------------------------------
+[ParseError] syntax error, unexpected 'class' (T_CLASS), expecting ']'
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/View/BcAppView.php(541): View->_evaluate('/Users/masui/Do...', Array)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(933): BcAppView->_evaluate('/Users/masui/Do...', Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(546): View->_render('/Users/masui/Do...')
+#3 /Users/masui/Documents/projects/basercms-practice/lib/Cake/View/View.php(481): View->renderLayout('<!-- BaserPageT...', 'default')
+#4 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(968): View->render('templates/defau...', 'default')
+#5 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Controller/PagesController.php(502): Controller->render('templates/defau...')
+#6 [internal function]: PagesController->display('index')
+#7 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#10 /Users/masui/Documents/projects/basercms-practice/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+[Error] 2022-11-24 16:58:33 ---------------------------------------------------------
+Fatal Error (16): Exception thrown without a stack frame in [Unknown, line 0]
+[Error] 2022-11-24 16:58:33 ---------------------------------------------------------
+[InternalErrorException] Internal Server Error
+Request URL: /
+Stack Trace:
+#0 /Users/masui/Documents/projects/basercms-practice/lib/Baser/Lib/Error/BcErrorHandler.php(119): BcErrorHandler::handleFatalError(16, 'Exception throw...', 'Unknown', 0)
+#1 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(970): BcErrorHandler::handleError(16, 'Exception throw...', 'Unknown', 0, Array)
+#2 /Users/masui/Documents/projects/basercms-practice/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
